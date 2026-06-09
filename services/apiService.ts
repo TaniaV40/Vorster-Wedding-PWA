@@ -250,7 +250,7 @@ export const apiService = {
       if (res.status === 'error') throw new Error(res.message);
       
       return (res.photos || []).map((r: any) => {
-        const fileIdKey = Object.keys(r).find(k => k.toLowerCase() === 'fileid' || k.toLowerCase() === 'field' || k.toLowerCase() === 'id') || 'FileId';
+        const fileIdKey = Object.keys(r).find(k => k.toLowerCase() === 'fileid' || k.toLowerCase() === 'field' || k.toLowerCase() === 'file id' || k.toLowerCase() === 'file_id') || 'FileId';
         const fileUrlKey = Object.keys(r).find(k => k.toLowerCase() === 'fileurl' || k.toLowerCase() === 'file url' || k.toLowerCase() === 'url') || 'FileUrl';
         const likesKey = Object.keys(r).find(k => k.toLowerCase() === 'likes' || k.toLowerCase() === 'like') || 'Likes';
         const idKey = Object.keys(r).find(k => k.toLowerCase() === 'id') || 'ID';
