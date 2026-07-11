@@ -7,10 +7,12 @@ interface CountdownScreenProps {
 }
 
 const venueImages = [
-  'https://lh3.googleusercontent.com/d/1pHvVgM1ATsTmMqZ24sxascItO6waBzGe',
-  'https://lh3.googleusercontent.com/d/1-H4kumE7ljupDd_Bi9OApZsy2opBGAfZ',
-  'https://lh3.googleusercontent.com/d/1wWU8pRRKXYCbjKQyBn8FxBZ2xOmTDzZ0',
-  'https://lh3.googleusercontent.com/d/1TXedSHXYs9SmmiVPGOCtfRmOllhAccC7'
+  'https://lh3.googleusercontent.com/d/1VfB1ST5ZzBv_aawPoERY0m0e8dSVUab6',
+  'https://lh3.googleusercontent.com/d/1qwbEkDUv8_0t1_8hm9_WuMLwM4NpbNOQ',
+  'https://lh3.googleusercontent.com/d/1BtqvD38CdufbZDZJzW9NwX4B-XC3ZHLQ',
+  'https://lh3.googleusercontent.com/d/1w8k6Udo9fPiOvT-1TtVoe3z9ddG222zd',
+  'https://lh3.googleusercontent.com/d/1b4_eDUFZeWn-pSO84CmRCIgnStPtDnbH',
+  'https://lh3.googleusercontent.com/d/1Ch-UH3XA0dFQf1hOrEy-xza2Dwxi3m2q'
 ];
 
 const CountdownScreen: React.FC<CountdownScreenProps> = ({ initialSection = 'top' }) => {
