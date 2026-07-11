@@ -92,7 +92,7 @@ const Invitation: React.FC<InvitationProps> = ({ onRSVPClick }) => {
 
             {/* Date Section */}
             <div className="flex flex-col items-center space-y-1 py-1">
-              <span className="text-white text-[8.5px] uppercase tracking-[0.4em] font-semibold drop-shadow-md">Saturday</span>
+              <span className="text-white text-[8.5px] uppercase tracking-[0.4em] font-semibold drop-shadow-md">Friday</span>
               <div className="flex items-center gap-4 py-1">
                 <div className="h-[0.5px] w-8 bg-[#e1b382]/40"></div>
                 <div className="text-center flex items-center gap-3">
