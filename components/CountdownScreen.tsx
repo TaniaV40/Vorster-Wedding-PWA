@@ -290,7 +290,7 @@ const CountdownScreen: React.FC<CountdownScreenProps> = ({ initialSection = 'top
                   <div className="absolute -left-[54.5px] top-1.5 w-2.5 h-2.5 rounded-full bg-[#e1b382] shadow-[0_0_15px_rgba(225,179,130,0.6)] group-hover:scale-150 transition-transform"></div>
                   <h4 className="text-[11px] uppercase tracking-[0.6em] font-bold text-[#e1b382] mb-4 drop-shadow-sm">Dress Code</h4>
                   <p className="text-[15px] leading-relaxed text-white font-serif drop-shadow-md">
-                    Dress formal and elegant, earthy and warm tones are welcome to match our rustic African winter theme. We kindly ask guests to avoid denim and to leave white for the bride.
+                    Dress formal and elegant. We kindly ask guests to avoid denim and to leave white for the bride.
                   </p>
                 </div>
 
