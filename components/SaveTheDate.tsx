@@ -83,7 +83,7 @@ const SaveTheDate: React.FC = () => {
 
             <div className="pt-4 space-y-4">
               <a 
-                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Jessica+%26+Juan%27s+Wedding&dates=20270702T130000Z/20270702T210000Z&details=We+can%27t+wait+to+celebrate+with+you!&location=Bell+and+Blossom,+Montana,+Pretoria,+South+Africa"
+                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Jessica+%26+Juan%27s+Wedding&dates=20270702T110000Z/20270702T190000Z&details=We+can%27t+wait+to+celebrate+with+you!&location=Bell+and+Blossom,+Montana,+Pretoria,+South+Africa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 px-8 py-3.5 bg-transparent border border-[#e1b382]/50 text-[#e1b382] hover:bg-[#e1b382] hover:text-black transition-all duration-300 rounded-[3px] text-[9px] uppercase tracking-[0.3em] font-bold group"

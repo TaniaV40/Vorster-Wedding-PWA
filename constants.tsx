@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-export const WEDDING_DATE = new Date('2027-07-02T15:00:00');
+export const WEDDING_DATE = new Date('2027-07-02T13:00:00');
 export const COLORS = {
   GOLD: '#c39d6f',
   BLACK: '#161615',

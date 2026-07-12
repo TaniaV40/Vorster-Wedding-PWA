@@ -247,10 +247,10 @@ const CountdownScreen: React.FC<CountdownScreenProps> = ({ initialSection = 'top
 
               <div className="relative pl-12 border-l border-[#e1b382]/40 space-y-10">
                 {[
-                  { title: 'The Vows', desc: 'Ceremony under the Great Baobab', time: '15:00' },
-                  { title: 'Sundowners', desc: 'Cocktails & African Hors d\'oeuvres', time: '16:45' },
-                  { title: 'The Feast', desc: 'The primary dinner event', time: '18:00' },
-                  { title: 'Celebration', desc: 'Dancing under the winter stars', time: '21:00' }
+                  { title: 'The Vows', desc: 'Ceremony under the Great Baobab', time: '13:00' },
+                  { title: 'Sundowners', desc: 'Cocktails & African Hors d\'oeuvres', time: '15:00' },
+                  { title: 'The Feast', desc: 'The primary dinner event', time: '17:45' },
+                  { title: 'Celebration', desc: 'Dancing under the winter stars', time: '19:00' }
                 ].map((item, idx) => (
                   <div key={idx} className="relative group">
                     <div className="absolute -left-[57px] top-1.5 w-5 h-5 rounded-full border border-[#e1b382] bg-black flex items-center justify-center transition-all group-hover:scale-125 group-hover:bg-[#e1b382]">
