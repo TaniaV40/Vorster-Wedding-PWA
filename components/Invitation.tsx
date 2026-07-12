@@ -102,7 +102,7 @@ const Invitation: React.FC<InvitationProps> = ({ onRSVPClick }) => {
                 </div>
                 <div className="h-[0.5px] w-8 bg-[#e1b382]/40"></div>
               </div>
-              <span className="text-white text-[8.5px] uppercase tracking-[0.3em] font-semibold drop-shadow-md">At 13:00</span>
+              <span className="text-white text-[8.5px] uppercase tracking-[0.3em] font-semibold drop-shadow-md">At 1:00 PM</span>
             </div>
 
             {/* Venue and Action */}
