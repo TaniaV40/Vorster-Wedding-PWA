@@ -102,7 +102,8 @@ const Gallery: React.FC = () => {
             {uploading ? 'Uploading...' : 'Upload a Moment'}
           </button>
           <p className="text-[10px] text-gray-400 mt-3 max-w-md mx-auto leading-relaxed border border-gold/15 bg-black/35 py-2.5 px-4 rounded-lg">
-            <span className="text-[#e1b382] font-bold">Video Note:</span> We welcome short clips! Please only upload videos that are <span className="text-white font-semibold">10 to 20 seconds</span> long or compressed (max 35 MB).
+            <span className="text-[#e1b382] font-bold">Video Note:</span> We welcome short clips! Please only upload videos that are <span className="text-white font-semibold">10 to 20 seconds</span> long or compressed (max 35 MB).<br />
+            <span className="text-gray-400 italic mt-1 block">WhatsApp Jessica for longer videos.</span>
           </p>
           <input 
             type="file" 
